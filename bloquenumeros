@@ -6,4 +6,4 @@ while encapa <= bloques:
 	altura += 1
 	bloques -= encapa
 	encapa += 1
-print("La altura de la pirámide:", altura)
+print("La altura de la pirámide :", altura)
