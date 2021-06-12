@@ -1,0 +1,9 @@
+bloques = int (input("Ingrese el número de bloques:"))
+
+altura = 0
+encapa = 1
+while encapa <= bloques:
+	altura += 1
+	bloques -= encapa
+	encapa += 1
+print("La altura de la pirámide:", altura)
